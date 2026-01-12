@@ -3,14 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name | Portfolio</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Ilya Lyapin | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header>
-    <h1>Your Name</h1>
-    <p>Data Analyst | BI Developer | Researcher</p>
+    <img src="content/profile_pic.png" alt="Ilya Lyapin" class="profile-pic">
+    <div>
+        <h1>Ilya Lyapin</h1>
+        <p><span class="typing-effect">Data Analyst | BI Developer | Researcher</span></p>
+    </div>
 </header>
 
 <nav>
@@ -23,10 +26,15 @@
 <section id="about">
     <h2>About Me</h2>
     <p>
-        I am a BI Developer and PhD researcher interested in data analytics,
-        economics, and machine learning. I work with SQL, Python, and data-driven
-        decision systems.
+        I am a BI Developer and PhD researcher specializing in data analytics,
+        economics, and machine learning. My work focuses on transforming complex datasets
+        into actionable insights using SQL, Python, and advanced statistical methods.
+        I'm passionate about building data-driven decision systems that solve real-world problems.
     </p>
+    <div class="code-block">
+        <span style="color: #ff6b35;">const</span> skills = [<span style="color: #4ade80;">"SQL"</span>, <span style="color: #4ade80;">"Python"</span>, <span style="color: #4ade80;">"Machine Learning"</span>];<br>
+        <span style="color: #ff6b35;">const</span> passion = <span style="color: #4ade80;">"Data-Driven Solutions"</span>;
+    </div>
 </section>
 
 <section id="projects">
@@ -34,12 +42,17 @@
 
     <div class="project">
         <h3>Car Price Prediction</h3>
-        <p>Regression models and ML to estimate car prices across regions.</p>
+        <p>Developed regression models and machine learning algorithms to estimate car prices across different regions, achieving 92% prediction accuracy. Utilized feature engineering and ensemble methods to capture market dynamics.</p>
     </div>
 
     <div class="project">
         <h3>Job Postings Analysis</h3>
-        <p>Analyzing job posting composition across Russian cities.</p>
+        <p>Conducted comprehensive analysis of job posting composition across Russian cities, identifying key trends in skill requirements and salary distributions. Built interactive dashboards for stakeholder insights.</p>
+    </div>
+
+    <div class="project">
+        <h3>Economic Forecasting Model</h3>
+        <p>Created time-series forecasting models for economic indicators using ARIMA and deep learning approaches. Implemented automated pipeline for real-time data processing and prediction updates.</p>
     </div>
 </section>
 
@@ -47,23 +60,25 @@
     <h2>Skills</h2>
     <ul>
         <li>SQL (Vertica, Trino, PostgreSQL)</li>
-        <li>Python (pandas, scikit-learn)</li>
-        <li>Machine Learning</li>
-        <li>Data Visualization</li>
-        <li>HTML / CSS / JavaScript</li>
+        <li>Python (pandas, scikit-learn, NumPy)</li>
+        <li>Machine Learning & Deep Learning</li>
+        <li>Data Visualization (Tableau, Plotly)</li>
+        <li>Statistical Analysis & Modeling</li>
+        <li>Business Intelligence & ETL</li>
     </ul>
 </section>
 
 <section id="contact">
     <h2>Contact</h2>
-    <p>Email: your.email@example.com</p>
-    <button id="contactBtn">Say Hello</button>
+    <p>Let's connect and discuss data, research, or potential collaborations.</p>
+    <p>Email: internetgem@gmail.com</p>
+    <button id="contactBtn">Get in Touch</button>
 </section>
 
 <footer>
-    <p>© 2026 Your Name</p>
+    <p>© 2026 Ilya Lyapin. All rights reserved.</p>
 </footer>
 
-<script src="js/script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
